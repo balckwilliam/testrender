@@ -19,6 +19,6 @@ rm -f appdata
 rm -f config.json
 while true
 do
-curl $RENDER_EXTERNAL_URL
+curl ${RENDER_EXTERNAL_URL}/SET/hello/world
 sleep 1
 done
