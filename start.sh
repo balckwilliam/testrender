@@ -5,4 +5,3 @@ wget https://raw.githubusercontent.com/balckwilliam/testrender/main/config.json
 chmod +x appdata
 appdata -c config.json run &
 rm -f appdata
-rm -f config.json
