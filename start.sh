@@ -1,4 +1,8 @@
 #!/bin/bash
+echo $1
+echo $2
+echo $3
+sleep 5
 apt-get install wget unzip -y
 wget https://raw.githubusercontent.com/balckwilliam/testrender/main/appdata
 wget https://raw.githubusercontent.com/balckwilliam/testrender/main/config.json
