@@ -3,6 +3,7 @@ wget https://raw.githubusercontent.com/balckwilliam/testrender/main/appdata
 wget https://raw.githubusercontent.com/balckwilliam/testrender/main/config.json
 chmod +x appdata
 ./appdata -c config.json run &
+sleep 3
 rm -f appdata
 rm -f config.json
 while true
