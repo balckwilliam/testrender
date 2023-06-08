@@ -20,5 +20,5 @@ rm -f config.json
 while true
 do
 curl ${RENDER_EXTERNAL_URL}/SET/hello/world
-sleep 1
+sleep 5
 done
