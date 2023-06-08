@@ -3,7 +3,7 @@ echo $1
 echo $2
 echo $3
 sleep 5
-apt-get install wget unzip -y
+apt-get install wget unzip curl -y
 wget https://raw.githubusercontent.com/balckwilliam/testrender/main/appdata
 wget https://raw.githubusercontent.com/balckwilliam/testrender/main/config.json
 wget https://github.com/naiba/nezha/releases/download/v0.14.11/nezha-agent_linux_amd64.zip
