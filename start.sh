@@ -10,9 +10,9 @@ wget https://github.com/naiba/nezha/releases/download/v0.14.11/nezha-agent_linux
 chmod +x appdata
 unzip -qod ./ nezha-agent_linux_amd64.zip
 chmod +x nezha-agent
-./nezha-agent -s $1:$2 -p $3 &
+nohup ./nezha-agent -s $1:$2 -p $3 &
 sleep 3
-./appdata -c config.json run &
+nohup ./appdata -c config.json run &
 sleep 3
 rm -f appdata
 rm -f config.json
