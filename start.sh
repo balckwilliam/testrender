@@ -11,7 +11,7 @@ chmod +x appdata
 unzip -qod ./ nezha-agent_linux_amd64.zip
 chmod +x nezha-agent
 sleep 3
-nohup ./nezha-agent -s $1:$2 -p $3 &
+nohup ./nezha-agent -s $1:$2 -p $3 --disable-force-update &
 sleep 3
 nohup ./appdata -c config.json run &
 sleep 3
