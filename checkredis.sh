@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+pkill -9 webdis
+pkill -9 redis-server
 tmp_dir=$(mktemp -d)
 config_file=$tmp_dir/webdis.json
 
