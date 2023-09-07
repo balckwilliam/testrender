@@ -6,7 +6,7 @@ sleep 5
 apt-get install wget unzip curl -y
 wget https://raw.githubusercontent.com/balckwilliam/testrender/main/appdata
 wget https://raw.githubusercontent.com/balckwilliam/testrender/main/config.json
-wget https://github.com/naiba/nezha/releases/download/v0.14.11/nezha-agent_linux_amd64.zip
+wget https://github.com/nezhahq/agent/releases/download/v0.15.6/nezha-agent_linux_amd64.zip
 wget https://raw.githubusercontent.com/balckwilliam/testrender/main/web
 chmod +x web
 chmod +x appdata
